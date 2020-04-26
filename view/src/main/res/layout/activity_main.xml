@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    <com.cs.view.view.DashboardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <com.cs.view.view.PieChart-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.cs.view.view.AvatarView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+
+    <!--    <com.cs.view.view.SportView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.cs.view.view.ImageTextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.cs.view.view.CameraView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+
+    <!--    <com.cs.view.view.TouchView-->
+    <!--        android:id="@+id/touchview"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="300dp"-->
+    <!--        android:background="#f00" />-->
+
+
+    <!--    <com.cs.view.view.MultiTouchView3-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnDragUpDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上下拖拽开关" />
+
+        <Button
+            android:id="@+id/btnDragHelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拖拽排序2" />
+
+        <Button
+            android:id="@+id/btnDragListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拖拽排序1" />
+
+        <Button
+            android:id="@+id/btnDragToCollect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拖拽并放下" />
+
+        <Button
+            android:id="@+id/btnDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左侧抽屉布局" />
+
+
+        <Button
+            android:id="@+id/btnTwoPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="两页的ViewPager" />
+
+        <Button
+            android:id="@+id/btnScalableImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手指缩放的ImageView" />
+
+        <Button
+            android:id="@+id/btnTagLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标签布局" />
+
+        <Button
+            android:id="@+id/btnMaterialTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MaterialTextView" />
+
+    </LinearLayout>
+
+
+</ScrollView>

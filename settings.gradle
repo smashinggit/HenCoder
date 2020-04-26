@@ -1,0 +1,2 @@
+include ':app', ':http', ':view', ':animation', ':thread', ':kotlin'
+rootProject.name='HenCoderStudy'

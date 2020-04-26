@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cs.view">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.DragHelperUpDownActivity" />
+        <activity android:name=".activity.DragHelperGridViewActivity" />
+        <activity android:name=".activity.ScalableImageViewActivity" />
+        <activity android:name=".activity.DragListenerGridViewActivity" />
+        <activity android:name=".activity.DragToCollectActivity" />
+        <activity android:name=".activity.DrawerActivity" />
+        <activity android:name=".activity.TagLayoutActivity" />
+        <activity android:name=".activity.TwoPageActivity" />
+        <activity android:name=".activity.MaterialTextViewActivity" />
+    </application>
+
+</manifest>

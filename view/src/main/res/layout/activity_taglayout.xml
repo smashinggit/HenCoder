@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.cs.view.view.TagLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="北京市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="天津市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="广州市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呼和浩特市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="郑州市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="洛阳市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上海市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="哈尔滨市" />
+
+        <com.cs.view.view.ColoredTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="齐齐哈尔市" />
+    </com.cs.view.view.TagLayout>
+
+</LinearLayout>

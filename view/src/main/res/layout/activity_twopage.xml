@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.cs.view.view.viewpager.TwoPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:text="页面1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary">
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:text="页面2" />
+                </RelativeLayout>
+
+
+            </com.cs.view.view.viewpager.TwoPager>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:text="占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位占位"
+                android:textSize="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
