@@ -4,6 +4,9 @@ apply plugin: 'kotlin'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation("com.squareup.okio:okio:2.6.0")
+
+
 }
 
 sourceCompatibility = "7"
@@ -29,8 +32,4 @@ compileTestKotlin {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-}
-
-tasks.withType(JavaCompile) {
-    options.encoding = "UTF-8"
 }

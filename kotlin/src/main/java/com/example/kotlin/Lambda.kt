@@ -28,8 +28,5 @@ class Lambda {
         return param.toString()
     }
 
-    fun a(::b) {
-
-    }
 
 }
